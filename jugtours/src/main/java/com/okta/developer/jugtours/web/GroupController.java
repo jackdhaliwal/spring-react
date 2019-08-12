@@ -42,7 +42,7 @@ class GroupController {
 		log.info("Request to create group: {}", group);
 		Group result = groupRepository.save(group);
 		return ResponseEntity.created(new URI("/api/group/" + result.getId())).body(result);
-	}
+	} 
 
 	@PutMapping("/group/{id}")
 	ResponseEntity<Group> updateGroup(@Valid @RequestBody Group group) {

@@ -14,7 +14,7 @@ import java.util.Set;
 
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
+@AllArgsConstructor 
 @Builder
 @Entity
 public class Event {
