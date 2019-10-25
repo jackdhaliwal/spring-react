@@ -26,7 +26,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <div className="App-intro">
-            <h2>JUG List</h2>
+            <h2>List Of Items</h2>
             {groups.map(group =>
               <div key={group.id}>
                 {group.name}
