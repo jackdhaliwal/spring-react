@@ -28,7 +28,6 @@ export default class AppNavbar extends Component {
             <NavLink
               href="/about">About Us</NavLink>
           </NavItem>
-
           <NavItem>
             <NavLink href="https://www.linkedin.com/in/brinder-dhaliwal-40512792/">Contact</NavLink>
           </NavItem>
