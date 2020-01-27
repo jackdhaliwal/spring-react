@@ -4,7 +4,7 @@ import Home from './Home';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import ReviewList from './ReviewList';
 import About from './About';
-
+import Faq from './Faq';
 //this page is responsible for routing urls to the respective pages you create. example: /about gets you to the about page..
 
 //TODO: 
@@ -20,7 +20,7 @@ class App extends Component {
           <Route path='/' exact={true} component={Home}/>
           <Route path='/reviews' exact={true} component={ReviewList}/>
           <Route path='/about' exact={true} component={About}/> 
-          <Route path='/faq' exact={true} component={About}/>
+          <Route path='/faq' exact={true} component={Faq}/>
 
         </Switch>
       </Router>
