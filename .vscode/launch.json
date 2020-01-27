@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-JugtoursApplication<jugtours>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.okta.developer.jugtours.JugtoursApplication",
+            "projectName": "jugtours",
+            "args": ""
+        }
+    ]
+}
