@@ -20,6 +20,7 @@ class App extends Component {
           <Route path='/' exact={true} component={Home}/>
           <Route path='/reviews' exact={true} component={ReviewList}/>
           <Route path='/about' exact={true} component={About}/> 
+          <Route path='/faq' exact={true} component={About}/>
 
         </Switch>
       </Router>
